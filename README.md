@@ -1,0 +1,3 @@
+# PHP Type Juggling Pitfall: Loose vs. Strict Comparison
+
+This repository demonstrates a common error in PHP programming related to unexpected behavior when using loose comparison (`==`) versus strict comparison (`===`) particularly when dealing with type juggling. Loose comparison can lead to unexpected results when comparing values of different data types,  while strict comparison helps in avoiding those pitfalls.  The example shows how comparing a string '10' and an integer 10 using loose comparison results in a true condition whereas using strict comparison results in a false condition, which highlights the importance of understanding the difference and choosing the appropriate comparison operator for the situation.
